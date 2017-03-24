@@ -1,0 +1,51 @@
+{
+  "vecs": {
+    "simple": {
+      "en": {
+        "text": "hurdle copy case inside text spider odor voyage abandon define train elegant famous normal bitter lawn hungry model reunion combine company correct teach melody",
+        "entropy": "6f86008cba9dfba3664fb00007339c23c52b2c45b3f06f51d2e116f2e86137a4",
+        "seed": "896a2421026fe28563abbb058e10f6295609d65f5d7fc03445f5e534c952e849"
+      },
+      "it": {
+        "text": "lastra condurre caduco luce surrogato slitta parabola vedova abaco demenza tiro erario fisico ovino azione mettere larga offerta ripulire codardo colmato connesso succoso nomina",
+        "entropy": "6f86008cba9dfba3664fb00007339c23c52b2c45b3f06f51d2e116f2e86137a4",
+        "seed": "896a2421026fe28563abbb058e10f6295609d65f5d7fc03445f5e534c952e849"
+      }
+    },
+
+    "encrypted": {
+      "en": {
+        "text": "odor problem unveil artefact ivory table fox agent vault giggle swallow danger similar net treat result afford utility blind all neglect lock monster acoustic tribe bundle antenna twice dry eager",
+        "secret": "foobarfoo",
+        "entropy": "6f86008cba9dfba3664fb00007339c23c52b2c45b3f06f51d2e116f2e86137a4",
+        "seed": "896a2421026fe28563abbb058e10f6295609d65f5d7fc03445f5e534c952e849"
+      },
+      "it": {
+        "text": "parabola pugno turbare angolare madama stivale geco agitare uragano gregge stabile datato segregato ospite toccare ripetuto agente umile badessa alcolico orzo mordere olandese acrilico tomo bisturi ambrato trattato elargire emanato",
+        "secret": "foobarfoo",
+        "entropy": "6f86008cba9dfba3664fb00007339c23c52b2c45b3f06f51d2e116f2e86137a4",
+        "seed": "896a2421026fe28563abbb058e10f6295609d65f5d7fc03445f5e534c952e849"
+      }
+    },
+
+    "invalid": {
+      "truncated": {
+        "en": "hurdle copy case inside text spider odor voyage abandon define train elegant famous normal bitter lawn hungry model reunion combine company correct teach",
+        "it": "lastra condurre caduco luce surrogato slitta parabola vedova abaco demenza tiro erario fisico ovino azione mettere larga offerta ripulire codardo colmato connesso succoso"
+      },
+
+      "missing": {
+        "en": "hurdle copy case inside text spider odor voyage abandon define train elegant normal bitter lawn hungry model reunion combine company correct teach melody",
+        "it": "lastra condurre caduco luce surrogato slitta parabola vedova abaco tiro erario fisico ovino azione mettere larga offerta ripulire codardo colmato connesso succoso nomina"
+      },
+
+      "empty": "",
+
+      "bad_word": {
+        "en": "hurdle copy case inside text spider odor foo abandon define train elegant famous normal bitter lawn hungry model reunion combine company correct teach melody",
+        "it": "lastra condurre caduco luce surrogato foo parabola vedova abaco demenza tiro erario fisico ovino azione mettere larga offerta ripulire codardo colmato connesso succoso nomina"
+      }
+
+    }
+  }
+}
